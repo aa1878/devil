@@ -166,7 +166,7 @@ def login():
 	print "\033[1;91m>>>\033[1;91m[3]\033[1;94m Jangan Lupa Add Akun Saya" 
 	time.sleep(0.05) 
 	print "\033[1;91m>>>\033[1;91m[4]\033[1;93m m.facebook.com/DEVILS69JAVHD" 
-	time.sleep(0.05)
+	
 	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Logout        "	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
 	pilih_login()
 
