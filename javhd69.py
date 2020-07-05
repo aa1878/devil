@@ -620,7 +620,7 @@ def pilih_super():
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰" 
 	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print("\033[1;96m[+] \033[1;92mFile Yang Di Simpan \033[1;91m: \033[1;97simpan/akun maling.txt")
+	print("\033[1;96m[+] \033[1;92mFile Yang Di Simpan \033[1;91m: \033[1;97save/akun maling.txt")
 	raw_input("\n\033[1;96m[\033[1;97mKembali Maling\033[1;96m]")
 	menu()
 
