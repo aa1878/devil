@@ -5,7 +5,7 @@ pkg install git
 
 git clone https://github.com/aa1878/devil
 
-cd lowercase
+cd javhd69
 
 pip2 install requests
 
