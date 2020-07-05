@@ -68,13 +68,13 @@ logo = """
 	\033[1;47m \033[1;31m Coder by : Ramdani ID \033[1;0m     
 \033[0;95m╭════════════════════════════════════════════╮
 
-\033[0;91m║\033[0;91mAUTHOR : \033[0;92mUSER JAVHD                     \033[0;91m      ║
+\033[0;91mAUTHOR : \033[0;92mUSER JAVHD
 
-\033[0;91m║\033[0;91mFB :\033[0;92m https://m.facebook.com/DEVILS69JAVHD         \033[0;91m║
+\33[0;91mFB :\033[0;92m https://m.facebook.com/DEVILS69JAVHD
 
 \033[0;95m╰════════════════════════════════════════════╯
 
-\033[1;94m⊱══════════════════⊱═⊰DISCLAIMER⊱═⊰══════════════════⊰
+\033[1;94m⊱══════════════════⊱═⊰NOTE⊱═⊰══════════════════⊰
 
 \033[1;91mWARNING :\033[1;93mGUNAKAN AKUN BARU UNTUK LOGIN BILA TIDAK AKUN KALIAN AKAN DINONAKTIFKAN OLEH SI JUKI
 
