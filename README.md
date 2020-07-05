@@ -5,13 +5,13 @@ pkg install git
 
 git clone https://github.com/aa1878/devil
 
-cd javhd69
+cd devil
 
 pip2 install requests
 
 pip2 install mechanize
 
-python2 devil.py
+python2 javhd69.py
 
 #USERNAME : javhd
 
