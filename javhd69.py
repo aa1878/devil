@@ -136,7 +136,7 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 jalan('\033[1;96m[✾]\x1b[1;91mWELOME TO MY SCRIPT\x1b[1;96m[✾]' )
-jjalan('\033[1;96m[✾]\x1b[1;91mHTTPS:XNXX.COM LINK HIBURAN BIAR TIDAK STRES\x1b[1;96m[✾]' )
+jalan('\033[1;96m[✾]\x1b[1;91mHTTPS:XNXX.COM LINK HIBURAN BIAR TIDAK STRES\x1b[1;96m[✾]' )
 jalan('\033[1;96m[✾]\x1b[1;91mMASUKAN KATA SANDI SCRIPTNYA YA ANJING\x1b[1;96m[✾]' )
 jalan('\033[1;96m[✾]\x1b[1;91mKALIAN BAU MEMEK ANJING\x1b[1;96m[✾]' )
 jalan('\033[1;96m[✾]\x1b[1;91mJANGAN LUPA MAKAN/TIDUR NANTI LU MATI\x1b[1;96m[✾]' )
